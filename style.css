@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-body, html{
+
+body,
+html {
     height: 100%;
     width: 100%;
     background-color: #A0DDE6;
 }
-.ATM{
+
+.ATM {
     width: 100%;
     height: 60rem;
     position: absolute;
@@ -22,7 +25,8 @@ body, html{
     flex-direction: column;
     align-items: center;
 }
-button{
+
+button {
     border: none;
     border-radius: 10px;
     background-color: #020122;
@@ -30,8 +34,10 @@ button{
     font-size: 1rem;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
-.closeMsg{
+
+.closeMsg {
     height: 3rem;
     position: relative;
     top: 11.5rem;
@@ -44,12 +50,14 @@ button{
     color: white;
     opacity: 0;
 }
-.ATM .title{
+
+.ATM .title {
     position: relative;
     top: 16rem;
     margin-bottom: 4rem;
 }
-.ATM .balance{
+
+.ATM .balance {
     position: relative;
     top: 12rem;
     color: green;
@@ -57,32 +65,48 @@ button{
     font-size: 1.5rem;
     transition: ease-in-out 0.5;
 }
-span{
+
+span {
     color: orangered;
 }
-.ATM .menuBar{
+
+.ATM .menuBar {
     position: absolute;
     top: 60%;
     left: 51%;
     transform: translate(-50%, -50%);
     width: 50rem;
 }
-.ATM .Input{
+
+.ATM .Input {
     position: relative;
     top: 13rem;
     font-size: 1.5rem;
 }
-.ATM .Input input{
+
+.ATM .Input input {
     padding: 1rem 3rem;
     font-size: 2rem;
 }
-.ATM .messege{
+
+/* .ATM .messegeBar{
+    width: auto;
+    background-color: rgba(245, 84, 84, 0.571);
+    position: relative;
+    top: 14rem;
+    font-size: 1.5rem;
+    } */
+.ATM .messege {
     width: auto;
     display: flex;
-    color: green;
+    color: white;
+    background-color: #ff000096;
+    padding-right: 2rem;
+    padding-left: 1rem;
     font-weight: bold;
     position: relative;
     top: 14rem;
     font-size: 1.5rem;
     transition: ease-in-out 0.5;
+    cursor: pointer;
 }
